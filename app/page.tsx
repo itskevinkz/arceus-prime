@@ -3,7 +3,7 @@ import { CopyButton } from "@/components/CopyButton";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-ink px-4 py-5 md:px-8">
+    <main className="min-h-screen text-ink px-4 py-5 md:px-8">
       <header className="flex items-center justify-between gap-4">
         <p className="font-scribble text-2xl md:text-3xl">{SITE.name}</p>
         <div className="flex flex-wrap items-center gap-3 font-hand text-lg">

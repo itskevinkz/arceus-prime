@@ -32,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${hand.variable} ${scribble.variable} font-hand bg-white text-ink antialiased`}>
+      <body className={`${hand.variable} ${scribble.variable} font-hand text-ink antialiased`}>
         {children}
       </body>
     </html>
