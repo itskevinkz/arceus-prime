@@ -4,7 +4,7 @@ export const SITE = {
   tagline: "maxximum transformation",
   description:
     "arceus prime is the final form of arc, built for maximum transformation.",
-  ca: "PASTE_CONTRACT_ADDRESS_HERE",
+  ca: "0xd5c80ccde4e9573ab25acf86c062f20ca0a60087",
   buyUrl: "https://REPLACE_BUY_URL",
   xUrl: "https://x.com/REPLACE_HANDLE",
   dexscreenerUrl: "https://dexscreener.com/REPLACE_PAIR",
