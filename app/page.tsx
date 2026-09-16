@@ -20,9 +20,13 @@ export default function Home() {
       </header>
 
       <img
-        src="/arceus-prime-banner.png"
+        src="/arceus-prime-banner-2x.png"
+        srcSet="/arceus-prime-banner.png 1024w, /arceus-prime-banner-2x.png 2048w"
+        sizes="(max-width: 1024px) 100vw, 1024px"
+        width={2048}
+        height={878}
         alt="ARCEUS PRIME"
-        className="block w-full max-w-6xl mx-auto mt-4 h-auto"
+        className="block w-full max-w-[1024px] mx-auto mt-4 h-auto"
       />
 
       <p className="font-hand text-center text-lg md:text-2xl max-w-2xl mx-auto mt-6">
